@@ -1,0 +1,44 @@
+ro.product.ctp=true
+ro.product.tp_ges=true
+ro.custom.build.version=EVERCOSS_S45B_V10_8.1_15092018
+ro.build.realversion=FS272_TRX_L459_32EA_EVERCOSS_O24473M_20180915_FWVGA_VOLTE__LL_W18_L13840_EVERCOSS_CTP_UDC_
+ro.build.realversion2=101111
+ro.build.nv_prj=_LL_W18_L13840_EVERCOSS
+#
+# from device/sprd/sharkle/sp9832e_1h10_go/system.prop
+#
+# Default density config, 240 for WVGA
+#ro.sf.lcd_density=240
+#ro.sf.lcd_width=54
+#ro.sf.lcd_height=96
+ro.product.hardware=sp9832e_1h10_go
+# Set Opengl ES Version
+#ro.opengles.version=196609
+
+# ro.fm.chip.port.UART.androidm=true
+
+# FRP property for pst device
+ro.frp.pst=/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/persist
+
+#enable audio nr tuning
+ro.audio_tunning.nr=1
+
+service.wait_for_bootanim=1
+
+# Disable the lock screen wallpaper
+ro.lockwallpaper.enable=false
+
+#set low battery level for disable flash
+persist.sys.cam.battery.flash = 10
+
+#Enable sdcardfs feature
+ro.sys.sdcardfs=true
+persist.sys.sdcardfs=force_on
+
+#enable hdr+normal pic mode
+persist.sys.cam.normalhdr=true
+
+#Disable assistant touch
+ro.product.assistanttouch=false
+
+#
